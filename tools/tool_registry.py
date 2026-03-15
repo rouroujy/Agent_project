@@ -9,13 +9,13 @@ tools = [
         name = "calculator",
         func = calculator,
         description = "使用数学计算"
-    )
+    ),
 
     Tool(
         name = "dictionary",
         func = dictionary,
         description = "查找单词定义"
-    )
+    ),
 
     Tool(
         name = "time",
