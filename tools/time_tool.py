@@ -6,7 +6,7 @@ time_tool.py
 
 from datetime import datetime
 
-def get_time() -> str:
+def time() -> str:
     '''
     返回当前时间
     '''
