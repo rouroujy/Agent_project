@@ -21,10 +21,3 @@ def parse_action(response: str):
     
     return (None, None)
 
-    # if "Action:" in response and "Input:" in response:
-    #     tool = response.split("Action:")[1].strip("\n")[0].strip()
-    #     tool = tool.lower()
-    #     tool_input = response.split("Input:")[1].strip()
-
-    #     return (tool, tool_input)
-    

@@ -14,7 +14,5 @@ def call_llm(prompt: str):
     )
     if response.status_code != 200:
         print("百炼 LLM 调用失败")
-    
-    print("大模型output：",response.output.text)
 
     return response.output.text
