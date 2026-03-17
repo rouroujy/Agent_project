@@ -1,4 +1,4 @@
-from langchain_core.tools import Tool
+# tools/tool_registry.py
 
 from tools.calculator_tool import calculator
 from tools.dictionary_tool import dictionary
@@ -19,23 +19,23 @@ TOOLS = {
 # LangChain Agent 使用
 # =========================
 
-LANGCHAIN_TOOLS = [
+# LANGCHAIN_TOOLS = [
 
-    Tool(
-        name="calculator",
-        func=calculator,
-        description="进行数学计算，例如 2*3+5"
-    ),
+#     Tool(
+#         name="calculator",
+#         func=calculator,
+#         description="进行数学计算，例如 2*3+5"
+#     ),
 
-    Tool(
-        name="dictionary",
-        func=dictionary,
-        description="查询单词含义，例如 agent llm rag"
-    ),
+#     Tool(
+#         name="dictionary",
+#         func=dictionary,
+#         description="查询单词含义，例如 agent llm rag"
+#     ),
 
-    Tool(
-        name="time",
-        func=lambda _: time(),
-        description="获取当前时间"
-    )
-]
+#     Tool(
+#         name="time",
+#         func=lambda _: time(),
+#         description="获取当前时间"
+#     )
+# ]
