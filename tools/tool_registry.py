@@ -3,6 +3,7 @@
 from tools.calculator_tool import calculator
 from tools.dictionary_tool import dictionary
 from tools.time_tool import time
+from tools.rag_tool import knowledge_base_search
 
 # =========================
 # MiniAgent 使用
@@ -11,8 +12,10 @@ from tools.time_tool import time
 TOOLS = {
     "calculator": calculator,
     "dictionary": dictionary,
-    "time": time
+    "time": time,
+    "knowledge_base_search": knowledge_base_search
 }
+
 
 
 # =========================
