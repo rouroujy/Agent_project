@@ -1,5 +1,4 @@
-```markdown
-# Agent Project — 从 Mini Agent 到 LangGraph + RAG Agent
+## Agent Project — 从 Mini Agent 到 LangGraph + RAG Agent
 
 一个从 **0 到 1 构建 AI Agent 系统**的实践项目，涵盖：
 
@@ -12,7 +11,7 @@
 
 ---
 
-# 项目亮点（Highlights）
+## 项目亮点（Highlights）
 从底层手写 Agent loop，理解 ReAct 模式  
 支持 Tool 调用（计算器 / 时间 / 字典 / RAG）  
 集成 Memory，实现多轮对话  
@@ -21,10 +20,9 @@
 
 ---
 
-# Agent 核心架构
+## Agent 核心架构
 
 Agent 本质：
-```
 
 LLM + Tool + Memory + Decision Loop
 
@@ -48,6 +46,7 @@ LLM总结
 
 ## 项目结构
 
+```
 Agent_project/
 │
 ├── agent/
@@ -76,6 +75,9 @@ Agent_project/
 ├── main_graph_tool.py # ⭐ 最终 Agent（带 Tool + RAG）
 │
 └── requirements.txt
+```
+
+
 
 ---
 
